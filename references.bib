@@ -1,27 +1,73 @@
 % Приклад файлу джерел. Додавайте свої записи в цьому ж стилі.
 % Цитування в тексті: \cite{ключ}
 
-@inproceedings{example2023,
-  author    = {Vaswani, Ashish and Shazeer, Noam and Parmar, Niki and Uszkoreit, Jakob and Jones, Llion and Gomez, Aidan N. and Kaiser, Lukasz and Polosukhin, Illia},
-  title     = {Attention Is All You Need},
-  booktitle = {Advances in Neural Information Processing Systems},
-  volume    = {30},
-  year      = {2017},
-  url       = {https://arxiv.org/abs/1706.03762},
+
+@inproceedings{dang2025effects,
+  author    = {Dang, H.-T. and Pham, T. and Thanh-Tung, H. and Inoue, N.},
+  title     = {On Effects of Steering Latent Representation for Large Language Model Unlearning},
+  booktitle = {Proceedings of the AAAI Conference on Artificial Intelligence},
+  volume    = {39(22)},
+  pages     = {23733--23742},
+  year      = {2025},
+  url = {https://doi.org/10.1609/aaai.v39i22.34544}
 }
 
-@article{example2022,
-  author  = {He, Kaiming and Zhang, Xiangyu and Ren, Shaoqing and Sun, Jian},
-  title   = {Deep Residual Learning for Image Recognition},
-  journal = {arXiv preprint arXiv:1512.03385},
-  year    = {2015},
-  url     = {https://arxiv.org/abs/1512.03385},
+@article{urbina2022dualuse,
+  author  = {Urbina, F. and Lentzos, F. and Invernizzi, C. and others},
+  title   = {Dual Use of Artificial-Intelligence-Powered Drug Discovery},
+  journal = {Nature Machine Intelligence},
+  volume  = {4},
+  pages   = {189--191},
+  year    = {2022},
+  doi     = {10.1038/s42256-022-00465-9},
+  url     = {https://doi.org/10.1038/s42256-022-00465-9},
 }
 
-@misc{example2021,
-  author = {Devlin, Jacob and Chang, Ming-Wei and Lee, Kenton and Toutanova, Kristina},
-  title  = {{BERT}: Pre-training of Deep Bidirectional Transformers for Language Understanding},
-  year   = {2019},
-  note   = {arXiv:1810.04805},
-  url    = {https://arxiv.org/abs/1810.04805},
+@InProceedings{pmlr-v235-li24bc,
+  title = 	 {The {WMDP} Benchmark: Measuring and Reducing Malicious Use with Unlearning},
+  author =       {Li, Nathaniel and Pan, Alexander and Gopal, Anjali and Yue, Summer and Berrios, Daniel and Gatti, Alice and Li, Justin D. and Dombrowski, Ann-Kathrin and Goel, Shashwat and Mukobi, Gabriel and Helm-Burger, Nathan and Lababidi, Rassin and Justen, Lennart and Liu, Andrew Bo and Chen, Michael and Barrass, Isabelle and Zhang, Oliver and Zhu, Xiaoyuan and Tamirisa, Rishub and Bharathi, Bhrugu and Herbert-Voss, Ariel and Breuer, Cort B and Zou, Andy and Mazeika, Mantas and Wang, Zifan and Oswal, Palash and Lin, Weiran and Hunt, Adam Alfred and Tienken-Harder, Justin and Shih, Kevin Y. and Talley, Kemper and Guan, John and Steneker, Ian and Campbell, David and Jokubaitis, Brad and Basart, Steven and Fitz, Stephen and Kumaraguru, Ponnurangam and Karmakar, Kallol Krishna and Tupakula, Uday and Varadharajan, Vijay and Shoshitaishvili, Yan and Ba, Jimmy and Esvelt, Kevin M. and Wang, Alexandr and Hendrycks, Dan},
+  booktitle = 	 {Proceedings of the 41st International Conference on Machine Learning},
+  pages = 	 {28525--28550},
+  year = 	 {2024},
+  editor = 	 {Salakhutdinov, Ruslan and Kolter, Zico and Heller, Katherine and Weller, Adrian and Oliver, Nuria and Scarlett, Jonathan and Berkenkamp, Felix},
+  volume = 	 {235},
+  series = 	 {Proceedings of Machine Learning Research},
+  month = 	 {21--27 Jul},
+  publisher =    {PMLR},
+  pdf = 	 {https://raw.githubusercontent.com/mlresearch/v235/main/assets/li24bc/li24bc.pdf},
+  url = 	 {https://proceedings.mlr.press/v235/li24bc.html},
+  abstract = 	 {The White House Executive Order on Artificial Intelligence highlights the risks of large language models (LLMs) empowering malicious actors in developing biological, cyber, and chemical weapons. To measure these risks, government institutions and major AI labs are developing evaluations for hazardous capabilities in LLMs. However, current evaluations are private and restricted to a narrow range of malicious use scenarios, which limits further research into reducing malicious use. To fill these gaps, we release the Weapons of Mass Destruction Proxy (WMDP) benchmark, a dataset of 3,668 multiple-choice questions that serve as a proxy measurement of hazardous knowledge in biosecurity, cybersecurity, and chemical security. To guide progress on unlearning, we develop RMU, a state-of-the-art unlearning method based on controlling model representations. RMU reduces model performance on WMDP while maintaining general capabilities in areas such as biology and computer science, suggesting that unlearning may be a concrete path towards reducing malicious use from LLMs. We release our benchmark and code publicly at https://wmdp.ai.}
 }
+
+@dataset{makovska_etal_2026_warbias,
+  title = {{WarBias}: War-Context Bias Triplets},
+  author = {Makovska, Viktoriia and Ostafiichuk, Oleksandra and Zakharchenko, Tetiana},
+  year = {2026},
+  publisher = {FairForget},
+  url = {https://huggingface.co/datasets/FairForget/WarBias}
+}
+
+
+@InProceedings{parrish-etal-2022-bbq,
+    title = {{BBQ}: A hand-built bias benchmark for question answering},
+    author = {Parrish, Alicia and Chen, Angelica and Nangia, Nikita and Padmakumar, Vishakh and Phang, Jason and Thompson, Jana and Htut, Phu Mon and Bowman, Samuel R.},
+    booktitle = {Findings of the Association for Computational Linguistics: ACL 2022},
+    month = {may},
+    year = {2022},
+    address = {Dublin, Ireland},
+    publisher = {Association for Computational Linguistics},
+    url = {https://aclanthology.org/2022.findings-acl.165/},
+    doi = {10.18653/v1/2022.findings-acl.165},
+    pages = {2086--2105},
+    note = {Licensed under Creative Commons Attribution 4.0 International (CC BY 4.0) \url{https://creativecommons.org/licenses/by/4.0/}}
+}
+
+@dataset{makovska_etal_2026_bbq_uk,
+    title = "{BBQ-UK}: Ukrainian Translation",
+    author = "Makovska, Viktoriia and Ostafiichuk, Oleksandra and Zakharchenko, Tetiana",
+    year = "2026",
+    publisher = "FairForget",
+    url = "https://huggingface.co/datasets/FairForget/BBQ-UK"
+
+}
+
